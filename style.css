@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.publicacion{
+    margin: 20px;
+    text-align: left;
+    color: #555;
+    opacity: 0;
+    animation: aparecer 1s forwards 0.5s;
+}
+.publicacion p{
+    border-left: solid 2px #555;
+    padding: 10px 20px;
+}
+.publicacion h3{
+    border-bottom: solid 2px #555;
+    display: inline-block;
+}
+
+@keyframes aparecer{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
